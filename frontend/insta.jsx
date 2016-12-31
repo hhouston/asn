@@ -1,6 +1,10 @@
 import React from 'react';
 
 class Insta extends React.Component {
+
+
+
+
   render () {
     return (
       <div>
