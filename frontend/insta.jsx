@@ -9,6 +9,7 @@ class Insta extends React.Component {
     return (
       <div>
         <h1>Insta</h1>
+        
       </div>
     );
   }
