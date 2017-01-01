@@ -5,7 +5,6 @@ import Insta from './insta';
 const Header = ({ children }) => (
   <div>
 
-    <WelcomeContainer />
     <Insta />
     { children }
   </div>
