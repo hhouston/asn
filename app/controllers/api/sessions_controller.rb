@@ -11,6 +11,11 @@ class Api::SessionsController < ApplicationController
     end
   end
 
+  def destroy
+    logout
+    render json: ["Logged out"]
+  end
+
   private
 
   def session_params
