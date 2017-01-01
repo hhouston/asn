@@ -7,3 +7,5 @@ const Header = ({ children }) => (
     { children }
   </div>
 );
+
+export default Header;
