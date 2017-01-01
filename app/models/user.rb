@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
     user && user.valid_password?(password) ? user : nil
   end
 
-  after_initialze :ensure_session_token
+  after_initialize :ensure_session_token
 
   attr_reader :password
 
