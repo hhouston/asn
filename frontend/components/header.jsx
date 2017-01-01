@@ -4,7 +4,7 @@ import Insta from './insta';
 
 const Header = ({ children }) => (
   <div>
-
+    
     <Insta />
     { children }
   </div>
