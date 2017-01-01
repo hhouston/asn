@@ -24,6 +24,7 @@ class Insta extends React.Component {
     const CLIENT_ID = '48de3bd770e941e685b05c8e687664f8';
     const REDIRECT_URI = 'https://lucidlab5.com';
     let auth_url = `https://api.instagram.com/oauth/authorize/?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=code`;
+
     // let xmlhttp = new XMLHttpRequest();
     //
     //
