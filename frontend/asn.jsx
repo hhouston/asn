@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Insta from './insta.jsx';
+import Insta from './components/insta.jsx';
 
 class Root extends React.Component {
 
