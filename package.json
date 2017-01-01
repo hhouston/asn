@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
     "postbuild": "npm install && webpack",
-    "heroku-postbuild": "npm run webpack:deploy"
+    "heroku-postbuild": "npm run webpack"
   },
   "keywords": [],
   "author": "",
