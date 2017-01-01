@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
-import Insta from './insta';
+import Header from './header';
 
 import SessionFormContainer from './session_form/session_form_container';
 
@@ -17,7 +17,7 @@ const Root = ({ store }) => {
   return(
     <Provider store={store}>
       <Router history={hashHistory}>
-        <Route path='/' component={ Insta }>
+        <Route path='/' component={ Header }>
           <Route path='/login'
                  component={ SessionFormContainer }
                  onEnter={ _redirectIfLoggedIn } />
