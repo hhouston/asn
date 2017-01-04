@@ -4,8 +4,8 @@ import Insta from './insta';
 
 const Header = ({ children }) => (
   <div>
-    
-    <Insta />
+    <WelcomeContainer />
+    <h1>Hello</h1>
     { children }
   </div>
 );
